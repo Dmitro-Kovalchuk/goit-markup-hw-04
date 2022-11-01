@@ -148,8 +148,6 @@ address {
   color: var(--feature-color);
 }
 
-/* ----------header---------- */
-
 /* -------------hero----------- */
 
 .hero {
@@ -188,6 +186,19 @@ address {
 .hero-btn:focus {
   background-color: var(--hat-color);
   color: var(--attention-color);
+}
+
+.hero-container {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/hero/hero-Img.jpg");
+  /* background-image: linear-gradient(to right rgba(47, 48, 58, 0.4)); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 /* -------------about----------- */
