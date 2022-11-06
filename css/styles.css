@@ -140,12 +140,19 @@ address {
 }
 
 .header-contacts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0;
 
   color: var(--feature-color);
+}
+
+.contact-icons {
+  fill: currentColor;
 }
 
 /* -------------hero----------- */
@@ -215,6 +222,18 @@ address {
   gap: 30px;
 }
 
+.about-container {
+  padding-bottom: 30px;
+}
+
+.about-icons {
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+  background-color: #F5F4FA;
+  gap: 30px;
+}
+
 .about-item {
   width: 270px;
 }
@@ -276,6 +295,22 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--feature-color);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196f3;
 }
 
 /* ----------footer---------- */
